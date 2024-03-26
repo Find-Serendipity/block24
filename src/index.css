@@ -1,0 +1,26 @@
+body {
+    text-align: justify;
+    color: rgb(32, 16, 12);
+    text-shadow: 1px 1px 20px #323232, 1px 1px 10px #ffffff;
+    font-weight: 800;
+    list-style-position: inside;
+    background-image: url("https://cdn.midjourney.com/caa57397-3e47-47ff-90f0-5c5a5229ce15/0_1.webp");
+    background-repeat: repeat;
+    background-size: 400px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 350px;
+}

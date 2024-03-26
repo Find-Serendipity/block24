@@ -8,7 +8,7 @@ export const puppyList = [
     ownerId: 1,
     tricks: [
       { id: 2, title: "Lay Down" },
-      { id: 3, title: "Jump through flaming hoop" },
+      { id: 3, title: "Jump through a hoop" },
     ],
   },
   {
@@ -18,7 +18,10 @@ export const puppyList = [
     isCute: true,
     age: 6,
     ownerId: 1,
-    tricks: [],
+    tricks: [
+      { id: 4, title: "Fetch" },
+      { id: 1, title: "Sit" },
+    ],
   },
   {
     id: 3,
@@ -45,7 +48,7 @@ export const puppyList = [
     isCute: true,
     age: 7,
     ownerId: 3,
-    tricks: [],
+    tricks: [{ id: 1, title: "Sit" }],
   },
   {
     id: 6,
@@ -54,7 +57,7 @@ export const puppyList = [
     isCute: true,
     age: 1,
     ownerId: 3,
-    tricks: [],
+    tricks: [{ id: 5, title: "Play dead" }],
   },
   {
     id: 7,
@@ -63,6 +66,6 @@ export const puppyList = [
     isCute: true,
     age: 2,
     ownerId: 3,
-    tricks: [],
+    tricks: [{ id: 1, title: "Sit" }],
   },
 ];

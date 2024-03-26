@@ -8,7 +8,7 @@ function App() {
   const featuredPup = puppies.find((pup) => pup.id === featPupId);
 
   return (
-    <>
+    <div id="wrapper">
       {puppies.map((puppy) => {
         return (
           <p
@@ -39,7 +39,7 @@ function App() {
           </ul>
         </div>
       )}
-    </>
+    </div>
   );
 }
 
